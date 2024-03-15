@@ -1,0 +1,22 @@
+
+.our-services-section{ color: var(--white); background-image: url(./images/b2.jpg); background-attachment: fixed; background-repeat: no-repeat; background-position: center top; background-size: cover; }
+.our-services-bg { opacity: 0.5; background-image: linear-gradient(to bottom,#281e10,#281804); }
+.our-services-main{padding: 6rem 0 7rem;}
+.short-intro1-of-4 h2{margin-bottom: 1rem; font-weight: 600; letter-spacing: 0;}
+
+
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .our-services-main{padding: 3rem 0 4rem; text-align: center;}
+    .our-services-title{padding-bottom: 0;}
+}
+
+
+
+
+
+
+
+
+
+
+

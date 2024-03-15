@@ -1,0 +1,30 @@
+
+
+.team-member-section{position: relative; z-index: 50;}
+.team-inner{padding: 4rem 0 0;}
+blockquote { margin-bottom: 1rem; font-weight: 400; font-size: 2rem; line-height: 3rem; font-style: italic; font-family: 'Poppins', sans-serif; }
+.blockquote-author{font-weight: 700; color: #d0a164;}
+.team-thumb img{max-width: 440px; max-height: 510px; min-height: 510px; overflow: hidden; object-position: center top;}
+
+/* media css starts here */
+@media only screen and (min-width: 1300px){
+    .team-left { width: 712px; padding-top: 90px; float: left;}
+    .team-right { width: calc(100% - 712px); padding-left: 80px; float: left;}
+    .team-thumb img{margin-right: auto;}
+}
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .team-inner{gap: 32px;}
+    .team-left{ flex: 0 0 612px; }
+    .team-right { flex: 1; }
+    .team-thumb img{margin-right: auto;}
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .team-inner{display: block;}
+    .team-left{margin-bottom: 2rem;}
+    .team-thumb img{margin: 0 auto; display: block;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .team-inner{display: block;}
+    .team-left{margin-bottom: 2rem;}
+    .team-thumb img{margin: 0 auto; display: block; min-height: 406px; max-height: 406px;}
+}

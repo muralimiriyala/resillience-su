@@ -1,0 +1,14 @@
+:root {
+    --black: #000000;
+    --black-50: #555555;
+    --black-60: #666666;
+    --white: #ffffff;
+    --white-40: rgb(255 255 255 / 40%);
+    --white-50: rgb(255 255 255 / 50%);
+    --white-75: rgb(255 255 255 / 75%);
+    --white-80: rgb(255 255 255 / 80%);
+    --pallete-color1: #D2B48C;
+    --pallete-color2: #D6CABA;
+    --pallete-color3: #F4ECE1;
+    --error: #f00;
+}

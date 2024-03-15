@@ -1,0 +1,32 @@
+
+.footer-main{background-color: #d0a164; text-align: center;  position: relative; z-index: 50;}
+ul.footer-links{gap: 30px; margin: 0 0 50px;}
+ul.footer-links > li{font-size: 1.5rem; color: #fff; list-style-type: none; position: relative;}
+ul.footer-links > li::before{content: ""; position: absolute; width: 2px; height: 100%; background-color: #fff; right: -15px;}
+ul.footer-links > li:last-child::before{display: none;}
+
+.footer-desc {color: #fff; margin-bottom: 40px;}
+
+ul.terms-policy{display: flex; justify-content: center; gap: 25px; margin: 0 0 5px; }
+ul.terms-policy > li {list-style-type: none; position: relative;}
+ul.terms-policy > li::before{content: ""; position: absolute; width: 1px; height: 70%; background-color: #fff; right: -15px; top: 50%; transform: translateY(-50%);}
+ul.terms-policy > li:last-child::before{display: none;}
+ul.terms-policy > li a{color: #fff; text-decoration-color: #fff;}
+ul.terms-policy > li a:hover{text-decoration-color: transparent;}
+
+.copyrights { color: #fff; }
+.copyrights > a{ color: #fff;text-decoration-color: #fff; }
+.copyrights > a:hover{text-decoration-color: transparent;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .footer{padding: 30px 50px; max-width: 860px; margin: 0 auto;}
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .footer{padding: 2rem 0;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .footer{padding: 30px 0;}
+    ul.footer-links > li{font-size: 17px;}
+    .copyrights span{display: block;}
+}

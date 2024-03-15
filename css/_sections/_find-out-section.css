@@ -1,0 +1,40 @@
+
+
+.find-out-section{background-color: var(--pallete-color3); z-index: 50; position: relative;}
+.frm_field{margin-bottom: 1.15rem;}
+
+
+/* media css starts here */
+@media only screen and (min-width: 1600px){
+    .find-out-main{gap: 158px; padding: 10rem 0; align-items: flex-start;}
+    .find-out-image{width: 703px;}
+    .find-out-text{width: calc(100% - 861px);}
+}
+@media only screen and (max-width: 1599px) and (min-width: 1024px){
+    .find-out-main{gap: 64px; padding: 6rem 0; align-items: flex-start;}
+    .find-out-image{width: calc(50% - 32px);}
+    .find-out-text{width: calc(50% - 32px);}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .find-out-main{gap: 32px; padding: 6rem 0; align-items: flex-start;}
+    .find-out-image{width: calc(50% - 16px);}
+    .find-out-text{width: calc(50% - 16px);}
+}
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .find-out-main{display: block; padding: 4rem 0;}
+    .find-out-image{margin-bottom: 2rem;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

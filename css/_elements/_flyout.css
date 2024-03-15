@@ -1,0 +1,10 @@
+.flyout-form, .flyout-form-uk{width: 408px; height: 100%; top: 0; right: -100%; position: fixed;z-index: 11800; transition: all 0.3s ease-in-out;}
+.flyout-form.open, .flyout-form-uk.open{right: 0;}
+.flyout-bg{width: 100%; height: 100%; top: 0; right: 0; opacity: 0.25; position: fixed; background-color: var(--black); z-index: 750; display: none;}
+.flyout-wrap{padding: 75px 76px 71px 47px; width: 100%; height: 100%; max-width: 408px; right: -100%; top: 0; background-color: #f3f7f8; color: var(--black); z-index: 800; position: fixed; transition: all 0.3s ease-in-out;  overflow-y: auto; -webkit-overflow-scrolling: touch;}
+.open .flyout-wrap{right: 0;}
+.flyout-close, .flyout-close-uk{right: 35px; top: 24px; position: absolute;}
+.flyout-avatar{gap: 14px; margin: 22px 0 31px;}
+.flyout-avatar-img{width: 57px; height: 57px;}
+.flyout-avatar-img img{border-radius: 50%;}
+.flyout-avatar-text{flex: 1;}

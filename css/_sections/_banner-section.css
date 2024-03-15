@@ -1,0 +1,18 @@
+
+.banner-end{min-height: 785px; align-items: flex-end;}
+
+/* media css starts here */
+@media only screen and (min-width: 1300px){
+    .banner-main{padding: 0 0 85px;}
+}
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .banner-main { padding: 175px 0 350px; }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .banner-main { padding: 190px 0 380px; }
+    .banner-thumb img{object-position: 80% 50%;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .banner-main { padding: 80px 0 380px; }
+    .banner-thumb img{object-position: 80% 50%;}
+}

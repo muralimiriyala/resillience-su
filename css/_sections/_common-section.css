@@ -1,0 +1,46 @@
+
+
+.default-content-desc{padding-top: 10px; color: var(--foreground-light); letter-spacing: -0.28px;}
+
+/* media css starts here */
+@media only screen and (min-width: 1300px){
+    .default-content-main{gap: 155px;}
+    .default-content-text{flex: 0 0 637px;}
+    .default-content-image{flex: 1;}
+}
+@media only screen and (min-width: 1024px){
+    .default-content-main{padding: 8rem 0 8rem;}
+}
+@media screen and (max-width: 1299px) and (min-width: 1024px){
+    .default-content-main{gap: 32px;}
+    .default-content-image{flex: 0 0 452px;}
+    .default-content-text{flex: 1;}
+}
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .default-content-main{ display: block; padding: 4rem 0; }
+    .default-content-desc{padding-top: 1px;}
+    .default-content-text{padding-bottom: 4rem;}
+}
+@media screen and (max-width: 767px) and (min-width: 200px){
+    .default-content-main{ display: block; padding: 4rem 0; }
+    .default-content-desc{padding-top: 1px;}
+    .default-content-text{padding-bottom: 4rem;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
